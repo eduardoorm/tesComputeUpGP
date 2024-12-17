@@ -1,0 +1,30 @@
+[
+  {
+    "id": 200,
+    "image": "posterPrograming",
+    "tag": "Entrevista Laboral",
+    "title": "¡Prepárate para tu Entrevista Técnica Laboral! Mejora tus habilidades en programación",
+    "startDate": "6 de Enero",
+    "category": "Desarrollo de Carrera",
+    "description": "Descubre las estrategias clave para destacar en tu entrevista técnica. ¡Impresiona y avanza en tu carrera!",
+    "level": "Principiante",
+    "duration": "4 semanas",
+    "mode": "Virtual",
+    "price": "10 USD",
+    "oldPrice": "30 USD",
+    "slotsAvailable": "5",
+    "hours": "36 horas",
+    "status": "Ver más"
+  },
+  {
+    "id": 201,
+    "image": "posterCloud",
+    "tag": "Entrevista Laboral",
+    "title": "¡Prepárate para tu Entrevista Laboral! Mejora tus Habilidades técnicas y blandas ",
+    "description": "Descubre las herramientas y técnicas esenciales para sobresalir en tu próxima entrevista laboral. ¡Impresiona y avanza en tu carrera!",
+    "level": "Principiante",
+    "duration": "4 semanas",
+    "hours": "36 horas",
+    "status": "Próximamente"
+  }
+]

@@ -1,0 +1,190 @@
+.courseDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #0D0D0D;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.courseInfo {
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ecf0f1;
+}
+
+.category, .date, .duration {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.priceContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: start;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: #e74c3c;
+  font-size: 1.2rem;
+}
+
+.btnGreen {
+  display: inline-block;
+  text-decoration: none; /* Quita el subrayado */
+  padding: 10px 20px;
+  color: white;
+  background-color: var(--btn-green-background);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.btnGreen:hover {
+  background-color: #19c25f;
+}
+
+.seats, .capacity {
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #f39c12;
+}
+
+.courseImage {
+  width: 40%;
+  margin-left: 20px;
+}
+
+.courseImage img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Pantallas grandes (1200px o más) */
+@media (min-width: 1200px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+/* Pantallas medianas (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    flex-direction: row;
+  }
+  .courseInfo {
+    width: 60%;
+  }
+  .courseImage {
+    width: 35%;
+  }
+  .btnGreen{
+    display: block;
+    margin:auto;
+  }
+}
+
+/* Tablets (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .courseInfo {
+    width: 100%;
+    text-align: start;
+  }
+  .courseImage {
+    width: 80%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .btnGreen{
+    display: block;
+    margin:auto;
+  }
+}
+
+/* Teléfonos medianos (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .courseInfo {
+    width: 100%;
+    text-align: start;
+  }
+  .courseImage {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .btnGreen{
+    display: block;
+    margin:auto;
+  }
+}
+
+/* Teléfonos pequeños (menos de 576px) */
+@media (max-width: 575px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .courseInfo {
+    width: 100%;
+    text-align: start;
+    padding: 0px;
+  }
+  .courseImage {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .btnGreen{
+    display: block;
+    margin:auto;
+  }
+}

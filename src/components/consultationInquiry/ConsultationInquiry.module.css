@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 25vh;
+  padding-bottom: 3rem;
+}
+
+.textContainer {
+  text-align: center;
+}
+
+.text {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.buttonAsesor {
+  background-color: var(--btn-green-background); /* Color de WhatsApp */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none; /* Asegúrate de que el enlace no tenga subrayado */
+  transition: background-color 0.3s;
+  margin-bottom: 3rem;
+}
+
+.buttonAsesor:hover {
+  background-color: var(--btn-green-hover-background);
+}
+@media (max-width: 575.98px) {
+
+  .container {
+    height: 30vh;
+  }
+  .text{
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,275 @@
+/* Animación de aparición suave */
+
+/* Efecto de hover y sombra en los botones */
+.btnMain {
+  width: 15rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: var(--btn-green-background);
+  font-weight: bold;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  font-size: 1.2rem; /* Mantener el tamaño de la fuente original */
+  opacity: 0; /* Inicialmente invisible */
+  transform: translateY(20px); /* Desplazado hacia abajo */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.companyAchievementsItemImg {
+  font-size: 30px;
+}
+
+.fadeIn {
+  opacity: 0;
+  transform: translateY(20px); /* Empuja los elementos hacia abajo inicialmente */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fadeInVisible {
+  opacity: 1;
+  transform: translateY(0); /* Elemento vuelve a su posición original */
+}
+
+.btnTransitionGreen:hover {
+  outline: none;
+  background-color: var(--btn-green-hover-background);
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Animación de logros de la empresa */
+.companyAchievementsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.companyAchievementsContainerItems {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  margin: 1rem;
+  font-size: 22px; /* Mantener tamaño original de la fuente */
+  color: #aeacac;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.companyAchievementsContainerItems img {
+  margin-right: 1rem;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Cuando los logros se muestran */
+.companyAchievementsContainerItems.fadeInVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.companyAchievementsContainerItems img.fadeInVisible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Empresas asociadas con hover */
+.associatesCompaniesContainerImage {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.associatesCompaniesContainerImage:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Estilo de la sección principal */
+.SectionMainCenter {
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  background-color: #0D0D0D;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Transición suave para el contenedor principal */
+.titleMain {
+  margin: 0;
+  opacity: 0;
+  animation: fadeInTitle 1s forwards;
+  font-size: 5rem; /* Mantener tamaño original */
+}
+
+@keyframes fadeInTitle {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.subtitleMain {
+  margin-top: 2rem;
+  width: 100%;
+  opacity: 0;
+  animation: fadeInSubtitle 1s forwards;
+  font-size: 1.5rem; /* Mantener tamaño original */
+}
+
+@keyframes fadeInSubtitle {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Media Queries para hacerlo responsive */
+
+/* Pantallas grandes (1200px o más) */
+@media (min-width: 1200px) {
+  .SectionMainCenter {
+    padding: 3rem;
+  }
+  .btnMain {
+    width: 18rem;
+    height: 5rem;
+    font-size: 1.5rem;
+  }
+  .titleMain {
+    font-size: 6rem;
+  }
+  .subtitleMain {
+    font-size: 2rem;
+  }
+}
+
+/* Pantallas medianas (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+  .SectionMainCenter {
+    padding: 2.5rem;
+    height: 60vh;
+  }
+  .btnMain {
+    width: 16rem;
+    height: 4.5rem;
+    font-size: 1.3rem;
+  }
+  .titleMain {
+    font-size: 5.5rem;
+  }
+  .subtitleMain {
+    font-size: 1.8rem;
+  }
+}
+
+/* Tablets (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .SectionMainCenter {
+    padding: 2rem;
+    height: 60vh;
+  }
+  .btnMain {
+    width: 14rem;
+    height: 4rem;
+    font-size: 1.2rem;
+  }
+  .titleMain {
+    font-size: 4rem;
+  }
+  .subtitleMain {
+    font-size: 1.5rem;
+  }
+  .companyAchievementsContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .companyAchievementsContainerItems {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+/* Teléfonos medianos (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .SectionMainCenter {
+    padding: 1.5rem;
+    height: 60vh;
+  }
+  .btnMain {
+    width: 12rem;
+    height: 3.5rem;
+    font-size: 1rem;
+  }
+  .titleMain {
+    font-size: 3rem;
+  }
+  .subtitleMain {
+    font-size: 1.2rem;
+  }
+  .companyAchievementsContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .companyAchievementsContainerItems {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+/* Teléfonos pequeños (menos de 576px) */
+@media (max-width: 575px) {
+  .SectionMainCenter {
+    padding: 1rem;
+    height: 60vh;
+  }
+  .btnMain {
+    width: 10rem;
+    height: 3rem;
+    font-size: 0.9rem;
+  }
+  .titleMain {
+    font-size: 2.5rem;
+  }
+  .subtitleMain {
+    font-size: 1rem;
+  }
+  .companyAchievementsContainer {
+    flex-direction: column;
+    justify-content: center;
+   }
+  .companyAchievementsContainerItems {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .companyAchievementsItemImg{
+    font-size: 15px;
+    padding-top: 0.2rem;
+    margin-right: 0.3rem;
+  }
+}

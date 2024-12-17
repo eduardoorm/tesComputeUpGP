@@ -1,0 +1,57 @@
+.containerPrincipal{
+   background-color: rgba(0, 0, 0, 0.928);
+
+}
+
+#containerNavbar{
+    max-width: 96%;
+}
+
+#navLinkItem{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:white;
+    margin:0 2rem;
+    cursor: pointer;
+}
+
+#navLinkItem:hover {
+    background-color: rgba(0, 0, 0, 0.59);
+    border-radius: 0.3rem;
+}
+
+    /*Pantallas de escritorio grandes (1400px o más):*/
+    @media (min-width: 1420px) {
+        
+    }
+    /*Pantallas de escritorio medianas (1200px - 1399px):*/
+    @media (min-width: 1210px) and (max-width: 1425px) {
+
+    }
+    /*Pantallas de escritorio pequeñas (1200px - 1399px):*/
+
+    @media (min-width: 992px) and (max-width: 1210px) {
+
+    }
+
+    /*Tablets*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+
+    }
+    /*Teléfonos medianos (576px - 767px)*/
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        #navLinkItemTitleMain{
+            font-size: 1.9rem;
+        }
+        #navLinkItem{
+            font-size: 1.4rem;
+        }
+    }
+
+    /*Para celulares pequeños*/
+    @media (max-width: 575.98px) {
+        .listOptionsFooter>li>a{
+            font-size: 1rem;
+        }
+    
+    }

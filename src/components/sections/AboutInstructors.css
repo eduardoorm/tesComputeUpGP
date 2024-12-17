@@ -1,0 +1,90 @@
+.imgInstructor {
+  width: 13rem;
+  height: 13rem;
+  min-width: 13rem; /* Añadir tamaño mínimo */
+  min-height: 13rem; /* Añadir tamaño mínimo */
+  border-radius: 50%; /* Cambia a un borde redondeado para un círculo */
+  margin: auto 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
+  object-position: center; /* Centra la imagen dentro del contenedor */
+}
+
+.descriptionInstructor {
+  margin: 2rem;
+  width: 100%;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  transition: color 0.3s ease;
+}
+
+.containerInstructorItem {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Media Queries para hacerlo responsive */
+
+/* Tablets (768px - 991px) */
+@media (max-width: 991px) {
+  .imgInstructor {
+    width: 10rem;
+    height: 10rem;
+    min-width: 10rem;
+    min-height: 10rem;
+  }
+
+  .descriptionInstructor {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+
+  .containerInstructorItem {
+    padding: 1rem;
+  }
+}
+
+/* Teléfonos medianos (576px - 767px) */
+@media (max-width: 767px) {
+  .imgInstructor {
+    width: 8rem;
+    height: 8rem;
+    min-width: 8rem;
+    min-height: 8rem;
+  }
+
+  .descriptionInstructor {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+
+  .containerInstructorItem {
+    padding: 0.5rem;
+    flex-direction: column;
+  }
+}
+
+/* Teléfonos pequeños (menos de 576px) */
+@media (max-width: 575px) {
+  .imgInstructor {
+    width: 8rem;
+    height: 8rem;
+    min-width: 6rem;
+    min-height: 6rem;
+  }
+
+  .descriptionInstructor {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+
+  .containerInstructorItem {
+    padding: 0.5rem;
+    flex-direction: column;
+  }
+}

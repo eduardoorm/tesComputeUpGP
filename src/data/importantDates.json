@@ -1,0 +1,29 @@
+[
+    {
+      "date": "16 DICIEMBRE",
+      "title": "EARLY BIRD SALE",
+      "description": "Primera venta pública abierta a todo público con un descuento por pronta compra.",
+      "price": "11 USD",
+      "until": "HASTA EL 29 DE DICIEMBRE",
+      "discount": "67% OFF",
+      "available": true
+    },
+    {
+      "date": "30 DICIEMBRE",
+      "title": "MID SALE",
+      "description": "Segunda venta pública abierta a todo público con un descuento por pronta compra.",
+      "price": "19 USD",
+      "until": "HASTA EL 05 DE ENERO",
+      "discount":  "33% OFF",
+      "available": false
+      },
+    {
+      "date": "06 ENERO",
+      "title": "PRECIO GENERAL",
+      "description": "Última semana de venta pública antes del inicio del programa.",
+      "price": "28 USD",
+      "until": "HASTA EL 10 DE ENERO",
+      "discount":  "General",
+      "available": false
+    }
+  ]

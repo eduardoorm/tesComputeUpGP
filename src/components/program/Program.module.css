@@ -1,0 +1,88 @@
+/* Contenedor principal */
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 3rem auto;
+  font-family: 'Arial', sans-serif;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  background: #fff;
+
+}
+
+.titleProgram {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 3rem;
+  padding-left: 20px;
+}
+
+/* Títulos de las secciones */
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  background: #f9f9f9;
+  transition: background 0.3s, color 0.3s;
+  display: flex;
+  justify-content: space-between; /* Flecha a la derecha */
+  align-items: center;
+}
+
+.sectionTitle.active {
+  background: #dcdcdc;
+  color: #0b9838;
+}
+
+/* Flecha */
+.arrow {
+  font-size: 0.8rem; /* Más fina */
+  color: #2c3e50;
+  transition: transform 0.3s ease;
+}
+
+.arrowDown {
+  transform: rotate(0deg); /* Apunta hacia abajo por defecto */
+}
+
+.arrowUp {
+  transform: rotate(180deg); /* Apunta hacia arriba al expandir */
+}
+
+/* Lista de elementos */
+.itemsList {
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding-left: 20px;
+  border-left: 2px solid #0b9838;
+}
+
+.item {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 6px;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .sectionTitle {
+    font-size: 1rem;
+  }
+
+  .arrow {
+    font-size: 0.7rem; /* Tamaño reducido en pantallas pequeñas */
+  }
+
+  .item {
+    font-size: 0.9rem;
+  }
+}

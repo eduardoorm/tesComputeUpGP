@@ -1,0 +1,52 @@
+.titleModalityItem {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.containerModality {
+    padding: 3rem 0rem;
+}
+
+.containerModalityItem {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    position: relative; /* Para controlar el sombredo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra inicial */
+    background-color: white; /* Fondo blanco */
+}
+
+.containerModalityItem:hover {
+    box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.2); /* Sombra al pasar por encima */
+    transform: translateY(-5px); /* Efecto sutil de elevación */
+    background-color: #f4f4f4; /* Fondo más claro en hover */
+}
+
+.containerModalityItem::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #0b9838; /* Color de la barra de transición */
+    transition: width 0.4s ease-out;
+}
+
+.containerModalityItem:hover::before {
+    width: 100%; /* La barra se expande al pasar por encima */
+}
+
+@media (max-width: 575.98px) {
+    .containerModalityItem {
+        height: 200px;
+    }
+    .containerModality {
+        padding: 0px;
+    }
+}

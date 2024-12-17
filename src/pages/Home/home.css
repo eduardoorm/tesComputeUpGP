@@ -1,0 +1,657 @@
+
+
+.colorPurple{
+    color: #612BFB;
+}
+
+
+
+.btnPurple{
+    background: #612BFB;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 100px;
+    border:none;
+}
+
+.btnGreen{
+    background-color: var(--btn-green-background);
+    color: var(--btn-white-color);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 100px;
+    border:none;
+}
+
+.btnBlack{
+    background-color: #0D0D0D;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 100px;
+    border:1px solid white;
+}
+
+
+
+
+
+/*SOBRE NOSOTROS*/
+.sectionAboutContainer{
+    height: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+}
+
+.titleSections{
+    font-size: 3.1rem;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom: 2rem;
+    padding-top: 2.8rem;
+}
+
+.titleBoxPurple{
+    line-height: 70px;
+    border:1px solid;
+    border-radius: 2rem;
+    padding: 0px 10px 5px 10px;
+    border: 4px solid #612BFB;
+    color:#612BFB;
+}
+
+.titleBoxGreen{
+    line-height: 70px;
+    border:1px solid;
+    border-radius: 2rem;
+    padding: 0px 10px 5px 10px;
+    border: 4px solid  var(--btn-green-background);
+    color: var(--btn-green-background);
+}
+
+
+.videoAbout{
+    display: block;
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+    margin: auto;
+}
+
+/*BENEFITS*/
+
+.containerBenefits{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerBenefitsItems{
+    padding: 2rem;
+    height: 16rem;
+    width: 23rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.containerBenefitsItems:nth-child(1){
+    background-color: #1E1E1E;
+    color:white;
+}
+
+.btnTransitionPurple{
+    transition: background-color 0.1.5s ease; 
+}
+
+.btnTransitionPurple:hover {
+    outline: none; /* Quita el borde de enfoque predeterminado */
+    background-color: #6a37f8;
+    cursor: pointer;
+  }
+
+
+
+.btnTransitionBlack{
+    transition: background-color 0.1.5s ease; 
+}
+
+.btnTransitionBlack:hover {
+    outline: none; /* Quita el borde de enfoque predeterminado */
+    background-color: #2c2b2b;
+    cursor: pointer;
+  }
+
+
+/*COURSESS*/
+.btnViewCourse{
+    transition: background-color 0.1.5s ease; 
+}
+.btnViewCourse:hover {
+    outline: none; /* Quita el borde de enfoque predeterminado */
+    background-color: #329752;
+  }
+
+.sectionCourses, .sectionFrecuentQuestions, .sectionImportantDates{
+    height: 100%;
+    background-color: #0D0D0D;
+    color:white;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+}
+
+.titleSectionCourses{
+    padding-top: 4%;
+}
+
+.containerContentItem{
+}
+
+.containerContentItemContent{
+    padding: 1rem;
+}
+
+.containerCoursesCategories{
+    display: flex;
+    border:1px solid rgba(229, 229, 229, 0.606);
+    border-radius: 2rem;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+.listCategories{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.listCategories> li{
+    margin-right: 20px;
+    padding: 1rem;
+    border-radius: 15rem;
+}
+
+.listCategories> li:nth-child(1){
+    background-color: #602AF9;
+}
+
+.listCategories> li:hover{
+   background-color: #602AF9;
+   cursor: pointer;
+}
+
+.containerCourses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.containerCourseItem{
+    width: 22%;
+    border-radius: 2rem;
+    background-color: #1E1E1E;
+}
+
+
+
+.containerInfoCourseItem>p{
+    margin:0px;
+}
+
+.titleContainerCurseItem{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 1rem 0rem;
+}
+
+.containerCourseItemImage{
+    width: 100%;
+    height: 12rem;
+}
+
+.containerCourseItemImage > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.containerTag{
+    background-color: #575757;
+    display: inline-block;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    font-size: 14px;
+}
+
+.containerInfoCourse{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100;
+    justify-content: space-between;
+}
+
+.containerInfoCourseItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerInfoCourseItem>img{
+    width: 17px;
+}
+
+.containerInfoCourseItem>p{
+    margin-left: 0.4rem;
+}
+
+.btnViewCourse{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.btnViewCourse:hover{
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+.containerFooterTitle{
+    font-size: 2rem;
+}
+
+footer{
+    background-color: #0D0D0D;
+    color:white;
+    padding-left:4rem ;
+    padding-right:4rem ;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.containerFooter{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.containerSocialMedia{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 2.3rem;
+}
+
+.containerSocialMediaItem>img{
+    width: 3rem;
+}
+
+.containerFooterTitleColumn{
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.listOptionsFooter{
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding: 0px;
+}
+
+.listOptionsFooter> li:not(:first-child) {
+    margin-top: 12px; /* Espacio entre elementos de la lista, excepto el primero */
+  }
+
+  /*OPINIONS*/
+
+  .sectionOpinions, .sectionModality{
+    height: 100%;
+    padding-bottom: 3rem;
+    background-color: #F7F5FF;
+  }
+
+  .sectionPrograma{
+    background-color: #F7F5FF;
+    padding-bottom: 3rem;
+  }
+
+  .containerModality{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+/*Pantallas de escritorio grandes (1400px o más):*/
+  @media (min-width: 1420px) {
+    /*CURSOS*/
+    .containerCourseItem>h3{
+        font-size: 20px;
+    }
+    .sectionCourses{
+        height: 100%;
+        padding-bottom: 3rem;
+    }
+    .containerCourseItem{
+        width: 23%;
+    }
+    .sectionImportantDates{
+        height: 100%;
+        padding-bottom: 3rem;
+    }
+  }
+/*Pantallas de escritorio medianas (1200px - 1399px):*/
+  @media (min-width: 1210px) and (max-width: 1425px) {
+    .SectionMainLeft{
+        width: 60%;
+        padding: 0rem;
+        margin:auto;
+    }
+    .containerCourseItem>h3{
+        font-size: 20px;
+    }
+    /*CURSOS*/
+    .containerCourseItem>h3{
+        font-size: 20px;
+    }
+    .sectionCourses{
+        height: 100%;
+        padding-bottom: 3rem;
+    }
+    .containerCourseItem{
+        width: 30%;
+    }
+  }
+
+    /*Pantallas de escritorio pequeñas (1200px - 1399px):*/
+
+  @media (min-width: 992px) and (max-width: 1210px) {
+    .SectionMainLeft{
+        width: 50%;
+        padding: 0rem;
+        margin:auto;
+    }
+
+    .titleMain{
+        font-size: 2.5rem;
+    }
+    .SectionMainRigth{
+        width: 40%;
+    }
+
+    /*SOBRE NOSOTROS*/
+    .videoAbout{
+    }
+
+        /*CURSOS*/
+        .containerCourseItem>h3{
+            font-size: 20px;
+        }
+        .sectionCourses{
+            height: 100%;
+            padding-bottom: 3rem;
+        }
+
+        .containerCourseItem{
+            width: 40%;
+            margin-bottom: 1rem;
+        }
+  }
+
+  /*Tablets*/
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .SectionMainLeft{
+        width: 50%;
+        padding: 0rem;
+        margin:auto;
+    }
+    .titleMain{
+        font-size: 2.5rem;
+    }
+    .SectionMainRigth{
+        width: 40%;
+    }
+
+    /*SOBRE NOSOTROS*/
+    .titleSections{
+        font-size: 1.5rem;
+        }
+    .videoAbout{
+        width: 80%;
+        height: 15rem;
+    }
+
+    .sectionAboutContainer{
+        height: 100%;
+    }
+
+    .sectionBenefits{
+        height: 100%;
+    }
+
+    .containerBenefits{
+        justify-content: center;
+    }
+
+    .titleBenefitsItems{
+        font-size: 1.5rem;
+    }
+    
+    .textBenefitsItems{
+    }
+
+    .containerBenefitsItems{
+        font-size: 1rem;
+        height: 100%;
+    }
+
+        /*CURSOS*/
+        .titleContainerCurseItem>{
+            font-size: 3px;
+        }
+
+        .containerCourses{
+            justify-content: space-between;
+        }
+        .sectionCourses{
+            height: 100%;
+            padding-bottom: 3rem;
+        }
+
+        .containerCourseItem{
+            width: 45%;
+            margin-bottom: 1rem;
+        }
+
+        
+  }
+
+  /*Teléfonos medianos (576px - 767px)*/
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .btnGreenMain{
+        margin-right: 0px;
+    }
+    .SectionMainLeft{
+        width: 100%;
+        padding: 0rem;
+        margin:auto;
+    }
+    .SectionMainRigth{
+        display:none;
+    }
+    .titleMain{
+        font-size: 2.5rem;
+    }
+    .containerMain{
+        height: 100%;
+    }
+
+    /**Sobre Nosotros */
+    .containerBenefits{
+        justify-content: center;
+    }
+    .containerBenefitsItems{
+        font-size: 1rem;
+        height: 100%;
+    }
+    .titleSections{
+        font-size: 2rem;
+    }
+
+            /*CURSOS*/
+            .titleContainerCurseItem>{
+                font-size: 3px;
+            }
+            .sectionCourses{
+                height: 100%;
+                padding-bottom: 3rem;
+            }
+    
+            .containerCourseItem{
+                width: 80%;
+                margin-bottom: 1rem;
+            }
+
+            .containerCourses{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+  }
+
+  /*Teléfonos pequeños (menores de 576px):*/
+  @media (max-width: 575.98px) {
+    .containerImportantDateItem {
+      padding: 1rem !important;
+    }
+    .titleBoxGreen{
+        line-height: 60px;
+    }
+    .btnGreenMain{
+        margin-right: 0px;
+    }
+
+    .SectionMainLeft{
+        width: 100%;
+        padding: 0rem;
+        margin: auto;
+    }
+    .SectionMainRigth{
+        display:none;
+    }
+    .titleMain{
+        font-size: 2.5rem;
+    }
+
+        /**Sobre Nosotros */
+        .containerBenefits{
+            justify-content: center;
+        }
+        .titleSections{
+            font-size: 1.8rem;
+        }
+
+        .sectionAboutContainer{
+            padding: 0.5rem;
+        }
+
+        .containerBenefitsItems{
+            font-size: 0.6rem;
+            height: 100%;
+        }
+
+            /*CURSOS*/
+            .titleContainerCurseItem{
+                font-size: 1rem;
+            }
+            .sectionCourses{
+                padding: 0rem;
+                height: 100%;
+                padding-bottom: 3rem;
+            }
+    
+            .containerCourseItem{
+                width: 85%;
+                margin-bottom: 1rem;
+            }
+
+            .containerContentItem{
+                font-size: 0.9rem;
+            }
+
+            .containerCourseItemImage{
+                height: 9rem;
+            }
+
+            .titleContainerCurseItem{
+                font-size: 1rem;
+            }
+
+            .containerCourses{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            /*MAIN*/
+            .subtitleMain{
+                font-size: 20px;
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+            .btnPurpleMain{
+                margin:0rem;
+                margin-bottom: 1rem;
+            }
+
+            .containerButtonsMain{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .containerMain{
+                height: 100%;
+            }
+
+            .companyAchievementsContainerItems:nth-child(1){
+                margin:0px
+            }
+
+            .companyAchievementsContainerItems{
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                text-align: center;
+                font-size: 1.2rem;
+                width: 100%;
+            }
+
+           
+  }
+

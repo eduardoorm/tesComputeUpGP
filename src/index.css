@@ -1,0 +1,17 @@
+:root {
+  font-family: Acumin Pro, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  --btn-purple-background: #612BFB;
+  --btn-green-background: #0b9838;
+  --btn-green-hover-background: #19c25f;
+  --btn-white-color: white;
+}
+
+body{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+

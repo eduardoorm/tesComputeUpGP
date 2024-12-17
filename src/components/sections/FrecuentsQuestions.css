@@ -1,0 +1,28 @@
+.containerFrecuentsQuestions{
+    margin-top:12rem;
+    padding-bottom: 10rem;
+}
+
+.accordionFrecuentsQuestions{
+    background-color:rgba(255, 255, 255, 0.051) !important;
+    color:white !important;
+}
+
+/*Para celulares pequeños*/
+@media (max-width: 575.98px) {
+    .containerFrecuentsQuestions{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #titleQuestion{
+        font-size: 1rem;
+    }
+
+    .accordionFrecuentsQuestions{
+        background-color:rgba(255, 255, 255, 0.051) !important;
+        color:white !important;
+        font-size: 0.3rem !important;
+    }
+ 
+}

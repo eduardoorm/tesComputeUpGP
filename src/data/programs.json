@@ -1,0 +1,155 @@
+{
+  "programs": [
+    {
+      "id": "200",
+      "title": "¡Prepárate para tu Entrevista Técnica!",
+      "teacher": "Joel Ibaceta",
+      "description": "Mejora tus hard skills y asegura tu éxito en entrevistas técnicas con un enfoque práctico y efectivo.",
+      "startDate": "13 de enero del 2025",
+      "startDateShort": "13/01/2025",
+      "category": "Desarrollo de Carrera",
+      "duration": "15 hrs",
+      "mode": "Virtual",
+      "price": "11 USD",
+      "level": "Principiante",
+      "oldPrice": "160 USD",
+      "available": true,
+      "slotsAvailable": 15,
+      "tag": "Desarrollo de carrera",
+      "image": "posterPrograming",
+      "status": "Ver más detalle",
+      "overview": {
+        "prerequisites": "Ninguno",
+        "instructor": "Joel Ibaceta",
+        "startDate": "11/01/2025",
+        "endDate": "01/02/2025",
+        "mode": "Online, 100% en vivo",
+        "hours": "15 hrs. académicas",
+        "sessions": "4",
+        "CourseStatus": "",
+        "certification": "Certificación ComputeUp",
+        "instructorBio": "CTO | Programador experimentado | Entrenador técnico, con más de 500 personas capacitadas",
+        "schedule": [
+          {
+            "time": "Sábados - 09:00 a 13:00",
+            "countries": ["🇵🇪", "🇨🇴", "🇪🇨"]
+          },
+          {
+            "time": "Sábados - 11:00 a 15:00",
+            "countries": ["🇨🇱"]
+          },
+          {
+            "time": "Sábados - 10:00 a 14:00",
+            "countries": ["🇧🇴", "🇸🇻"]
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "GitHub desde Cero: El Arte de Colaborar en Equipo",
+          "items": [
+            "Conceptos Básicos de Git",
+            "Primeros pasos con Github",
+            "Colaboración y Resolución de Conflictos",
+            "Corrigiendo Errores"
+          ]
+        },
+        {
+          "title": "Docker para Principiantes: Construyendo Entornos Portátiles",
+          "items": [
+            "Conceptos fundamentales de contenedores",
+            "Entendiendo el Dockerfile",
+            "Docker Compose",
+            "Dockerizando proyectos"
+          ]
+        },
+        {
+          "title": "Testing: Cómo Garantizar que Todo Funciona (y Siempre Funcione)",
+          "items": [
+            "Fundamentos de Testing",
+            "Mocks, APIs, Dependencias",
+            "TDD",
+            "Data Test Driven",
+            "CI + CD"
+          ]
+        },
+        {
+          "title": "Scrum: Cómo trabajar en equipos ágiles",
+          "items": [
+            "Fundamentos de Scrum",
+            "Roles en Scrum",
+            "Artefactos",
+            "Eventos",
+            "Implementación"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "201",
+      "title": "¡Prepárate para tu Entrevista Laboral!",
+      "description": "Fortalece tus habilidades técnicas y blandas para destacar en procesos de selección laborales.",
+      "teacher": "Joel Ibaceta, Nicole Vassallo, Isabel Cordova",
+      "startDate": "15 de enero del 2025",
+      "startDateShort": "15/01/2025",
+      "category": "Desarrollo de Carrera",
+      "duration": "20 hrs",
+      "mode": "Virtual",
+      "price": "15 USD",
+      "oldPrice": "170 USD",
+      "slotsAvailable": 20,
+      "image": "posterJobInterview",
+      "level": "Intermedio",
+      "tag": "Desarrollo de carrera",
+      "available": false,
+      "status": "Ver más detalle",
+      "overview": {
+        "prerequisites": "Ninguno",
+        "instructor": "Joel Ibaceta, Nicole Vassallo y Isabel Cordova",
+        "startDate": "15/01/2025",
+        "endDate": "10/02/2025",
+        "mode": "Online, 100% en vivo",
+        "hours": "28 hrs. académicas",
+        "sessions": "28",
+        "certification": "Certificación Compute Up",
+        "schedule": [
+          {
+            "time": "Lunes, Martes y Viernes - 18:00 a 20:00",
+            "countries": ["🇵🇪", "🇨🇴", "🇪🇨", "🇨🇱"]
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Preparación Técnica para Entrevistas",
+          "items": [
+            "Algoritmos y estructura de datos",
+            "APIS Y JSON",
+            "Git y GitHub",
+            "Docker"
+          ]
+        },
+        {
+          "title": "Habilidades Blandas para Entrevistas",
+          "items": [
+            "Autoconocimiento y búsqueda de propósito",
+            "Elaboración de currículum vitae",
+            "Marca personal y fuentes de empleo",
+            "Entrevista laboral",
+            "Simulación de Assessment (Parte 1)",
+            "Derechos laborales y ¿Qué hacer en mi primera semana de trabajo?",
+            "Simulación de Assessment (Parte 2)",
+            "¿Cómo destacar en tu trabajo? Networking y consejos finales"
+          ]
+        },
+        {
+          "title": "Simulaciones de Entrevistas",
+          "items": [
+            "Entrevistas técnicas en tiempo real",
+            "Entrevistas de comportamiento en tiempo real"
+          ]
+        }
+      ]
+    }
+  ]
+}
