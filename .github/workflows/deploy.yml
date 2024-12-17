@@ -3,7 +3,7 @@ name: Deploy React to GitHub Pages
 on:
   push:
     branches:
-      - main  # Rama principal
+      - master  # Rama principal
 
 permissions:
   contents: read
