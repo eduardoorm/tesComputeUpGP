@@ -22,7 +22,8 @@
 
     /* Output */
     "outDir": "./dist",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "noEmit": true // Habilitar noEmit para permitir allowImportingTsExtensions
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
