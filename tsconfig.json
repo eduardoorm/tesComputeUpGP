@@ -12,6 +12,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true, // Añadido para permitir importaciones por defecto
+    "allowImportingTsExtensions": true, // Permitir importaciones con extensión .tsx
 
     /* Linting */
     "strict": true,
