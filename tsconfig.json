@@ -12,7 +12,6 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true, // Añadido para permitir importaciones por defecto
-    "allowImportingTsExtensions": true, // Permitir importaciones con extensión .tsx
 
     /* Linting */
     "strict": true,
@@ -22,8 +21,7 @@
 
     /* Output */
     "outDir": "./dist",
-    "rootDir": "./src",
-    "noEmit": true // Habilitar noEmit para permitir allowImportingTsExtensions
+    "rootDir": "./src"
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

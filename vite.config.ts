@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      input: '/src/main.tsx'
+      input: 'index.html' // Asegúrate de incluir index.html como punto de entrada
     }
   }
 });
