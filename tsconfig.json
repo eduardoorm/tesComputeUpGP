@@ -11,6 +11,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true, // Añadido para permitir importaciones por defecto
 
     /* Linting */
     "strict": true,
